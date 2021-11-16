@@ -8,7 +8,7 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 //1. static getter method to access plugin instance
 //2. constructor injection(using a constructor)
 
-public class DeathListener implements Listener {gi
+public class DeathListener implements Listener {
 
     private final InstanceAccess instanceAccess;
 
@@ -19,7 +19,7 @@ public class DeathListener implements Listener {gi
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent e){
 
-
+        instanceAccess.getConfig().get("Ewewre");
 
     }
 
