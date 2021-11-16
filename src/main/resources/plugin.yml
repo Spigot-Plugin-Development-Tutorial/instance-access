@@ -1,0 +1,4 @@
+name: InstanceAccess
+version: '${project.version}'
+main: me.kodysimpson.instanceaccess.InstanceAccess
+api-version: 1.17
